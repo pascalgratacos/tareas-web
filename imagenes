@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea - Imágenes</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+
+    <h1>2. Uso de Imágenes</h1>
+    <p>Un poco más de mi vida :)</p>
+
+    <img src="imagen1.jpg" alt="Hola! Yo soy Pascal Gratacós" class="imagen-tarea">
+    <img src="imagen2.jpg" alt="Aquí les muestro un poco de mi trabajo" class="imagen-tarea">
+    <img src="imagen3.jpg" alt="Ellos son mi motor, mis papás" class="imagen-tarea">
+    <img src="imagen4.jpg" alt="Mi perrita Aiko y mi abuela, ambas viven conmigo" class="imagen-tarea">
+
+    <br>
+    <hr>
+    
+    <a href="acerca-de-mi-tarea.html" class="boton-base">Volver a Información Personal</a>
+    <a href="imagenes-tarea.html">Ir a la página de Imágenes</a>
+    <a href="botones-tarea.html" class="boton-base">Ir a la página de Botones</a>
+    
+</body>
+</html>
