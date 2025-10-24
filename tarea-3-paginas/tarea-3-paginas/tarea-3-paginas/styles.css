@@ -1,0 +1,70 @@
+/*
+ * ----------------------------------------------------
+ * ESTILOS DE RESET/BASE (CUMPLIMIENTO DE RÚBRICA)
+ * ----------------------------------------------------
+ */
+body {
+    /* Nuevo color de fondo para toda la página */
+    background-color: #FFEAEA; 
+    
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+    
+    /* Nuevo color de texto principal */
+    color: black; 
+    line-height: 1.6;
+}
+
+/*
+ * ----------------------------------------------------
+ * ESTILOS PARA LA TAREA 2: IMÁGENES
+ * ----------------------------------------------------
+ */
+.imagen-tarea {
+    width: 200px;
+    margin: 5px;
+    border: 1px solid #ccc; 
+    display: inline-block;
+}
+
+/*
+ * ----------------------------------------------------
+ * ESTILOS PARA LA TAREA 3: BOTONES
+ * ----------------------------------------------------
+ */
+
+/* Estilo Base para los Botones de Navegación (Aplica a todos los botones) */
+.boton-base, .boton-wiki {
+    /* Nuevo color de fondo para botones */
+    background-color: #C75B7A; 
+    /* Nuevo color de texto sobre botones */
+    color: white; 
+    
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease; 
+}
+
+/* Botón 1, 2 y Wiki usan el mismo color base, por lo que no necesitan un color de fondo diferente
+   en esta configuración, solo se define el hover.
+*/
+
+/* Botón 3: Wiki/Externo (Ajuste de padding si se quiere destacar) */
+.boton-wiki {
+    padding: 12px 24px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+/* Efecto Hover: Oscurece ligeramente el color de fondo para la usabilidad */
+.boton-base:hover,
+.boton-wiki:hover {
+    background-color: #9c4b62; /* Una versión ligeramente más oscura de #C75B7A */
+    cursor: pointer;
+}
